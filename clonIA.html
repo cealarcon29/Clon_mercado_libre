@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercadoLibre - Clon IA Mejorado</title>
+</head>
+<body bgcolor="#f7f9fa" text="#222" link="#0073e6" vlink="#004080">
+    <header>
+        <h1 style="text-align:center; margin: 20px 0;">🛒 MercadoLibre</h1>
+        <nav aria-label="Menú principal">
+            <ul style="list-style:none; text-align:center; padding:0; margin:0;">
+                <li style="display:inline; margin:0 15px;"><a href="#inicio">🏠 Inicio</a></li>
+                <li style="display:inline; margin:0 15px;"><a href="#categorias">📦 Categorías</a></li>
+                <li style="display:inline; margin:0 15px;"><a href="#ofertas">🔥 Ofertas</a></li>
+                <li style="display:inline; margin:0 15px;"><a href="#destacados">⭐ Destacados</a></li>
+                <li style="display:inline; margin:0 15px;"><a href="#ayuda">❓ Ayuda</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>🔎 Buscar productos</h2>
+            <form>
+                <input type="text" placeholder="¿Qué estás buscando?" list="sugerencias" size="40">
+                <datalist id="sugerencias">
+                    <option value="Celulares">
+                    <option value="Computadoras">
+                    <option value="Ropa deportiva">
+                    <option value="Hogar">
+                    <option value="Juguetes">
+                </datalist>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>📰 Noticias y Promociones</h3>
+            <p><mark>Envío gratis</mark> en compras mayores a $100.000 hasta <time datetime="2025-05-31">31 de mayo de 2025</time>.</p>
+            <details>
+                <summary>Ver más promociones</summary>
+                <ul>
+                    <li>10% de descuento en electrónicos</li>
+                    <li>2x1 en productos seleccionados</li>
+                </ul>
+            </details>
+        </aside>
+
+        <section id="ofertas">
+            <h2>🔥 Ofertas destacadas</h2>
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Celular Samsung Galaxy">
+                    <figcaption>📱 Samsung Galaxy</figcaption>
+                </figure>
+                <p>Precio: <mark>$1.200.000</mark></p>
+                <p>Descuento: <progress value="20" max="100">20%</progress></p>
+                <p>Stock: <meter value="15" min="0" max="50">15 disponibles</meter></p>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Laptop HP">
+                    <figcaption>💻 Laptop HP</figcaption>
+                </figure>
+                <p>Precio: <mark>$2.500.000</mark></p>
+                <p>Descuento: <progress value="15" max="100">15%</progress></p>
+                <p>Stock: <meter value="8" min="0" max="20">8 disponibles</meter></p>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Zapatillas Nike">
+                    <figcaption>👟 Zapatillas Nike</figcaption>
+                </figure>
+                <p>Precio: <mark>$320.000</mark></p>
+                <p>Descuento: <progress value="10" max="100">10%</progress></p>
+                <p>Stock: <meter value="30" min="0" max="100">30 disponibles</meter></p>
+            </article>
+        </section>
+
+        <section id="categorias">
+            <h2>📦 Categorías populares</h2>
+            <nav aria-label="Categorías">
+                <ul>
+                    <li><a href="#ofertas">⚡ Electrónica</a></li>
+                    <li><a href="#ofertas">👗 Moda</a
